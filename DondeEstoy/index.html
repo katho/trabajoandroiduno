@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <div class="container">
+        <h1>Hello</h1>
+        <div class="row">
+            <div class="col">
+                <form id="forma-origen">
+                    <div>
+                        <label for="entrada-origen">Origen</label><br>
+                        <input type="text" class="form-control" id="nombre-origen" placeholder="Nombre del origen" required><br>
+                        <input type="text" class="form-control" id="latitud-1" placeholder="Latitud origen" required><br>
+                        <input type="text" class="form-control" id="longitud-1" placeholder="Longitud origen" required><br>
+                    </div>
+                </form>
+            </div>
+            <div class="col">
+                <form id="forma-destino">
+                    <div>
+                        <label for="entrada-destino">Destino</label><br>
+                        <input type="text" class="form-control" id="nombre-destino" placeholder="Nombre del destino" required><br>
+                        <input type="text" class="form-control" id="latitud-2" placeholder="Latitud destino" required><br>
+                        <input type="text" class="form-control" id="longitud-2" placeholder="Longitud destino" required>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col"></div>
+            <div class="col">
+                    <button type="button" class="btn btn-primary" id="envia-forma">Calcular</button>
+            </div> 
+        </div>
+        <div class="mi-alerta">
+
+        </div>
+
+        <div class="container" id="resultados" >
+            
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/popper.js" type=""></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
